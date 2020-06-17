@@ -89,96 +89,45 @@ var isKuwaiti3 = true
  
  */
     
-firstName1 == firstName2
-firstName1 == firstName3
-firstName2 == firstName3
-firstName1 != firstName2
-firstName1 != firstName3
-firstName2 != firstName3
+firstName1 == firstName2 || firstName1 == firstName3 || firstName2 == firstName3
+firstName1 != firstName2 || firstName1 != firstName3 || firstName2 != firstName3
 
-lastName1 == lastName2
-lastName1 == lastName3
-lastName2 == lastName3
-lastName1 != lastName2
-lastName1 != lastName3
-lastName2 != lastName3
+lastName1 == lastName2 || lastName1 == lastName3 || lastName2 == lastName3
+lastName1 != lastName2 || lastName1 != lastName3 || lastName2 != lastName3
 
-email1 == email2
-email1 == email3
-email2 == email3
-email1 != email2
-email1 != email3
-email2 != email3
+email1 == email2 || email1 == email3 || email2 == email3
+email1 != email2 || email1 != email3 || email2 != email3
 
-phoneNumber1 == phoneNumber2
-phoneNumber1 == phoneNumber3
-phoneNumber2 == phoneNumber3
-phoneNumber1 != phoneNumber2
-phoneNumber1 != phoneNumber3
-phoneNumber2 != phoneNumber3
+phoneNumber1 == phoneNumber2 || phoneNumber1 == phoneNumber3 || phoneNumber2 == phoneNumber3
+phoneNumber1 != phoneNumber2 || phoneNumber1 != phoneNumber3 || phoneNumber2 != phoneNumber3
 
-country1 == country2
-country1 == country3
-country2 == country3
-country1 != country2
-country1 != country3
-country2 != country3
+country1 == country2 || country1 == country3 || country2 == country3
+country1 != country2 || country1 != country3 || country2 != country3
 
-area1 == area2
-area1 == area3
-area2 == area3
-area1 != area2
-area1 != area3
-area2 != area3
+area1 == area2 || area1 == area3 || area2 == area3
+area1 != area2 || area1 != area3 || area2 != area3
 
-password1 == password2
-password1 == password3
-password2 == password3
-password1 != password2
-password1 != password3
-password2 != password3
+password1 == password2 || password1 == password3 || password2 == password3
+password1 != password2 || password1 != password3 || password2 != password3
 
-isKuwaiti1 == isKuwaiti2
-isKuwaiti1 == isKuwaiti3
-isKuwaiti2 == isKuwaiti3
-isKuwaiti3 != isKuwaiti2
-isKuwaiti1 != isKuwaiti3
-isKuwaiti1 != isKuwaiti2
+isKuwaiti1 == isKuwaiti2 || isKuwaiti1 == isKuwaiti3 || isKuwaiti2 == isKuwaiti3
+isKuwaiti3 != isKuwaiti2 || isKuwaiti1 != isKuwaiti3 || isKuwaiti1 != isKuwaiti2
 
-age1 == age2
-age1 == age3
-age2 == age3
-age1 != age2
-age1 != age3
-age2 != age3
-age1 > age2
-age1 > age3
-age2 > age3
-age1 >= age2
-age1 >= age3
-age2 >= age3
-age1 < age2
-age1 < age3
-age2 < age3
-age1 <= age2
-age1 <= age3
-age2 <= age3
+age1 == age2 || age1 == age3 || age2 == age3
+age1 != age2 || age1 != age3 || age2 != age3
+age1 > age2 || age1 > age3 || age2 > age3
+age1 >= age2 || age1 >= age3 || age2 >= age3
+age1 < age2 || age1 < age3 || age2 < age3
+age1 <= age2 || age1 <= age3 || age2 <= age3
 
-18 < age1
-18 < age2
-18 < age3
 
-18 > age1
-18 > age2
-18 > age3
+18 < age1 && 18 < age2 && 18 < age3
 
-age1 == 17
-age2 == 17
-age3 == 17
+18  > age1 && 18  > age2 && 18  > age3
 
-age1 != 17
-age2 != 17
-age3 != 17
+age1 == 17 && age2 == 17 && age3 == 17
+
+age1 != 17 && age2 != 17 && age3 != 17
 
 
 
